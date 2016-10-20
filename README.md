@@ -21,7 +21,8 @@ Usage
 
 To use this widget, you may insert the following code into a view file:
 -----
-<div style="border:1px solid #ccc;">
+
+### Array key support
 ```php
 $options = [
     'title' => [
@@ -96,6 +97,5 @@ $this->widget('ext.yii-echarts.EchartsWidget',[
     'options' => $options
 ]);
 ```
-</div>
 
 说明：具体的参数使用参照 http://echarts.baidu.com/option.html#title 配置项手册

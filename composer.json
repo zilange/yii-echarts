@@ -1,0 +1,14 @@
+{
+    "name": "zilange/yii-echarts",
+    "description": "yii1.1 echarts widget baidu",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kevin.yx",
+            "email": "yexiao2015@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
