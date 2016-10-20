@@ -98,4 +98,9 @@ $this->widget('ext.yii-echarts.EchartsWidget',[
 ]);
 ```
 
+生成的报表图:
+-----
+
+![image](https://github.com/zilange/yii-echarts/blob/master/dom/images/echarts.jpg)
+
 说明：具体的参数使用参照 http://echarts.baidu.com/option.html#title 配置项手册
