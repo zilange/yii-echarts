@@ -93,12 +93,12 @@ $options = [
     'color' => ['#EEAAEE','#7CB5EC','#F7A35C', '#90EE7E', '#7798BF', '#FF0066', '#AAEEEE', '#bda29a','#6e7074', '#546570', '#c4ccd3']
 ];
 $this->widget('ext.yii-echarts.EchartsWidget',[
-    'htmlOptions' => ['style' => 'height:400px'],
+    'htmlOptions' => ['style' => 'height:400px'],   //注意：必须定义表图div容器的高度，才可以显示表图，否则不显示
     'options' => $options
 ]);
 ```
 
-生成的报表图:
+生成的报表图: 可点击右上角的工具栏进行柱状图、折线图的任意切换
 -----
 
 ![image](https://github.com/zilange/yii-echarts/blob/master/dom/images/echarts.jpg)
