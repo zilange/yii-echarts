@@ -21,8 +21,8 @@ Usage
 
 To use this widget, you may insert the following code into a view file:
 -----
-<div style="border:1px solid #ccc;">
-<?php
+#<div style="border:1px solid #ccc;">
+---php
 $options = [
     'title' => [
         'text' => '统计图标题',
@@ -96,7 +96,7 @@ $this->widget('ext.yii-echarts.EchartsWidget',[
     'options' => $options
 ]);
 ?>
-</div>
+#</div>
 -----
 
 说明：具体的参数使用参照 http://echarts.baidu.com/option.html#title 配置项手册
